@@ -4,7 +4,7 @@ export default function CardContainer(props) {
         <div className="card">
            <div className="card-content">
              <h3>{name}</h3>
-             <p>Brand: {brand}</p>
+             <b>Brand: {brand}</b>
              <p>Price: {price}</p>
              <p>Features: {features}</p>
            </div>
